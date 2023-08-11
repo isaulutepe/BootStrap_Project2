@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Started Template</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">App Name</a>
+
+            <div id="navmenu" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#section-hero" class="nav-link">Top The top</a></li>
+                    <li class="nav-item"><a href="#section-desciription" class="nav-link">Desciription</a></li>
+                    <li class="nav-item"><a href="#section-trailer" class="nav-link">Trailer</a></li>
+                    <li class="nav-item"><a href="#section-showcase" class="nav-link">Showcase</a></li>
+                    <li class="nav-item"><a href="#section-features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#section-pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#section-reviews" class="nav-link">Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Burada yer alan py : padding y demektir sag ve soldan 5 bririm boşluk ekler -->
+    <section class="text-center py-5 bg-light 
+    text-white d-flex
+     justify-content-center align-items-center" id="section-hero">
+        <div class="container">
+            <!-- Burada yer alan display-1 başlık kalıpları için kullanılan bir sınıftır 
+             mt ifadesi ise : margin top anlamına gelmektedirt.-->
+            <h1 class="display-1 text-primary text-uppercase mt-5">App Name</h1>
+            <p class="display-4">Lorem, ipsum dolor.</p>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p><strong>Download now on:</strong></p>
+            <a href="#" class="btn btn-lg btn-primary mb-3 mb-sm-0 me-sm-3">
+                App Store
+            </a>
+            <a href="#" class="btn btn-lg btn-primary mb-3 mb-sm-0 me-sm-3">
+                Google Play
+            </a>
+        </div>
+    </section>
+    <div class="container">
+        <section class="mt-5" id="section-desciription">
+
+            <h2 class="display-4 text-center">What is App Name?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui magnam nihil laudantium
+                explicabo impedit natus animi maxime numquam minus. Quos quidem illum non laudantium minus dolorum
+                dolor at cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eveniet provident error, corporis
+                temporibus fugiat.</p>
+        </section>
+        <section id="section-trailer" class="mt-5 text-center">
+            <h2 class="display-4">App Name Trailer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, fugiat.</p>
+            <div class="ratio ratio-16x9">
+                <iframe src="
+                https://www.youtube.com/embed/bEMHJg30S9E"></iframe>
+            </div>
+        </section>
+        <section id="section-showcase" class="mt-5 text-center">
+            <h2 class="display-4">App Name in action</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, earum.</p>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/Slider1.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-3">First Slide Label</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/Slider2.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-3">Second Slide Label</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/Slider3.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-3">Thirty Slide Label</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="section-features" class="mt-5">
+            <h2 class="display-4 text-center">Features</h2>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                        <i class="fas fa-cat"></i>
+                        <h3 class="h4 mb-4 text-center">Features heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates, aperiam quis
+                                provident distinctio aut modi?</p>
+                            <a href="#" class="btn btn-sm btn-info align-self-center">Read More</a>
+
+                    </div>
+                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                        <i class="fas fa-cat"></i>
+                        <h3 class="h4 mb-4 text-center">Features heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates, aperiam quis
+                                provident distinctio aut modi?</p>
+                            <a href="#" class="btn btn-sm btn-info align-self-center">Read More</a>
+
+                    </div>
+                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                        <i class="fas fa-cat"></i>
+                        <h3 class="h4 mb-4 text-center">Features heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates, aperiam quis
+                                provident distinctio aut modi?</p>
+                            <a href="#" class="btn btn-sm btn-info align-self-center">Read More</a>
+
+                    </div>
+                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                        <i class="fas fa-cat"></i>
+                        <h3 class="h4 mb-4 text-center">Features heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptates, aperiam quis
+                                provident distinctio aut modi?</p>
+                            <a href="#" class="btn btn-sm btn-info align-self-center">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-pricing" class="mt-5">
+            <h2 class="display-4 text-center">Choose your plan</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mt-5">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-header bg-primary text-white text-center">
+                                <h4 class="display-6">Starter</h4>
+                                <p class="text-center">Free</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item d-flex justify-content-center">
+                                    <a href="#" class="btn btn-primary">Select Plan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-header bg-dark text-white text-center">
+                                <h4 class="display-6">Semi-pro</h4>
+                                <p class="text-center">$1.99 / month</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item d-flex justify-content-center">
+                                    <a href="#" class="btn btn-primary bg-dark text-white">Select Plan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-header bg-danger text-white text-center">
+                                <h4 class="display-6">Pro</h4>
+                                <p class="text-center">$4.99 / month</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item d-flex justify-content-center">
+                                    <a href="#" class="btn btn-primary bg-danger text-white">Select Plan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-reviews" class="mt-5">
+            <h2 class="display-4 text-center">Reviews</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt repudiandae autem quam
+                        voluptatem possimus accusamus quae delectus distinctio optio officiis, ullam ad. Saepe
+                        asperiores fuga, ea rerum quod obcaecati?</p>
+                    <figcaption class="blockquote-footer">
+                        FirstName LastName <time datetime="2023-08-11">Agust 08 2023</time>
+                    </figcaption>
+                </div>
+                <div class="col-md-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt repudiandae autem quam
+                        voluptatem possimus accusamus quae delectus distinctio optio officiis, ullam ad. Saepe
+                        asperiores fuga, ea rerum quod obcaecati?</p>
+                    <figcaption class="blockquote-footer">
+                        FirstName LastName <time datetime="2023-08-11">Agust 08 2023</time>
+                    </figcaption>
+
+                </div>
+                <div class="col-md-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt repudiandae autem quam
+                        voluptatem possimus accusamus quae delectus distinctio optio officiis, ullam ad. Saepe
+                        asperiores fuga, ea rerum quod obcaecati?</p>
+                    <figcaption class="blockquote-footer">
+                        FirstName LastName <time datetime="2023-08-11">Agust 08 2023</time>
+                    </figcaption>
+
+                </div>
+                <div class="col-md-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi incidunt repudiandae autem quam
+                        voluptatem possimus accusamus quae delectus distinctio optio officiis, ullam ad. Saepe
+                        asperiores fuga, ea rerum quod obcaecati?</p>
+                    <figcaption class="blockquote-footer">
+                        FirstName LastName <time datetime="2023-08-11">Agust 08 2023</time>
+                    </figcaption>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="section-newsletter" class="bg-secondary py-5 mt-3">
+        <div class="container">
+            <form class="text-white">
+                <h2 class="display-4 text-center">Newsletter</h2>
+                <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Nobis, accusamus!</p>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="input-name" class="visually-hidden">Your Name:</label>
+                            <input type="text" class="form-control" placeholder="Fisrtname LastName">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="mb-3">
+                            <label for="input-name" class="visually-hidden">Your Name:</label>
+                            <input type="text" class="form-control" placeholder="Fisrtname LastName">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check mb-2"><input type="checkbox" class="form-check-input" id="input-terms"
+                        value="terms">
+                    <label class="form-check-label" for="input-terms">I have read and accept the
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal">terms and conditions
+                        </a>.
+                    </label>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <small class="form-text text-white w-75">
+                        You can unsubcribe from the mailing list at any time.
+                    </small>
+                    <button type="button" class="btn btn-dark">Sing Up</button>
+                </div>
+                <div class="modal fade" id="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark">Rules</h5>
+                                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body text-black">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi explicabo ipsum
+                                    fuga itaque consequatur porro vel error enim, temporibus magni ratione ad quasi
+                                    atque veniam aperiam! Sint officia eius enim vel deleniti ipsam facere consectetur
+                                    perferendis possimus assumenda corporis at, culpa nostrum similique expedita aliquam
+                                    architecto ut excepturi exercitationem dolor?Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Minima deserunt tempora fuga. Soluta debitis cumque est
+                                    voluptatem, omnis id inventore facilis vel excepturi dolorum iusto impedit, cum
+                                    autem ipsam praesentium laborum recusandae quidem accusantium doloremque
+                                    perspiciatis. Exercitationem similique asperiores nisi. Eum ducimus omnis
+                                    consequatur culpa, blanditiis autem possimus odio earum.</p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <footer class="bg-light">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Quick links</h6>
+                    <ul class="list-unstyled">
+                        <li class="list-group-item"><a href="#" class="text-primary">Home</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">What's New?</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Support</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">My Acocount</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Cancel Subcription</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Information</h6>
+                    <ul class="list-unstyled">
+                        <li class="list-group-item"><a href="#" class="text-primary">About Us</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Jobs</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Press info</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Contact</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Partnership</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Follow Us</h6>
+                    <ul class="list-unstyled">
+                        <li class="list-group-item"><a href="#" class="text-primary">Facebook</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Instagram</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Twitter</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Youtube</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6>Our Location</h6>
+                    <ul class="list-unstyled">
+                        <li class="list-group-item"><b>App Name</b></li>
+                        <li class="list-group-item">350 5th Avenue</li>
+                        <li class="list-group-item">New York, NY 10118</li>
+                        <li class="list-group-item"><a href="#" class="text-primary">(212) 736-3100</a></li>
+                        <li class="list-group-item"><a href="#" class="text-primary">info@appname.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 d-flex justify-content-between">
+                    <p>Copyright &copy; 2023 All Right Reserved.
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal">Term of use and privacy policy</a>
+                    </p>
+                    <div class="dropdown dropup">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" id="languageMenuButton"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Change
+                            Language</button>
+                        <div class="dropdown-menu p-0" aria-labelledby="languageMenuButton">
+                            <a href="#0" class="dropdown-item small px-1">English</a>
+                            <a href="#0" class="dropdown-item small px-1">Germany</a>
+                            <a href="#0" class="dropdown-item small px-1">French</a>
+                            <a href="#0" class="dropdown-item small px-1">Spanish</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
