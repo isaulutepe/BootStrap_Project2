@@ -1,4 +1,4 @@
-# BootStrap_Project2
+# Bootstrap 2.Uygulama
 Bootstrap çalışmam sırasında tamamlamış olduğum ikinci web sitesi projesi.
 
 ![Ekran görüntüsü 2023-08-21 163128](https://github.com/isaulutepe/BootStrap_Project2/assets/114800514/a1015b46-14e7-48df-b53a-4cefea02245c)
